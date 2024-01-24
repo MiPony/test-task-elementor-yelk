@@ -1,0 +1,55 @@
+# Copyright (C) 2020 John Doe
+# This file is distributed under the same license as the My Elementor Widget package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Elementor Widget 1.0.0\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/custom-elementor-widget\n"
+"POT-Creation-Date: 2020-04-16 17:57:06+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: custom-elementor-widget.php:139
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Custom Elementor Widget"
+msgstr ""
+
+#: custom-elementor-widget.php:141 custom-elementor-widget.php:157
+msgid "Elementor"
+msgstr ""
+
+#: custom-elementor-widget.php:155 custom-elementor-widget.php:172
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater"
+msgstr ""
+
+#: custom-elementor-widget.php:174
+msgid "PHP"
+msgstr ""
+
+#: widgets/example.php:11
+msgid "Example Widget"
+msgstr ""
+
+#: widgets/example.php:33
+msgid "Content Settings"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Custom elementor widget"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Oleg Pelyh"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://docs.google.com/document/d/1pN6f_NghfwIb4gppzcbtWPFRO8S3kbnyd8239hLu0Ls/edit"
+msgstr ""
