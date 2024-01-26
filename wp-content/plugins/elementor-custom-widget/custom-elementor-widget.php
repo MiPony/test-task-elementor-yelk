@@ -69,8 +69,8 @@ final class Custom_Elementor_Widget {
         wp_register_style( 'myew-owl-carousel-theme', MYEW_PLUGIN_URL . 'assets/vendor/owl-carousel/css/owl.theme.default.min.css', [], rand(), 'all' );
         wp_register_script( 'myew-owl-carousel', MYEW_PLUGIN_URL . 'assets/vendor/owl-carousel/js/owl.carousel.min.js', [ 'jquery' ], rand(), true );
 
-        wp_register_style( 'myew-style', MYEW_PLUGIN_URL . 'assets/dist/css/public.min.css', [], rand(), 'all' );
-        wp_register_script( 'myew-script', MYEW_PLUGIN_URL . 'assets/dist/js/public.min.js', [ 'jquery' ], rand(), true );
+        wp_register_style( 'myew-style', MYEW_PLUGIN_URL . 'assets/source/css/public.css', [], rand(), 'all' );
+        wp_register_script( 'myew-script', MYEW_PLUGIN_URL . 'assets/source/js/public.js', [ 'jquery' ], rand(), true );
 
         wp_enqueue_style( 'myew-owl-carousel' );
         wp_enqueue_style( 'myew-owl-carousel-theme' );
@@ -110,6 +110,14 @@ final class Custom_Elementor_Widget {
 
         add_action( 'elementor/init', [ $this, 'init_category' ] );
         add_action( 'elementor/widgets/widgets_registered', [ $this, 'init_widget' ] );
+    }
+
+    /**
+    * Init Widgets
+    * @since 1.0.0
+    */
+    public function init_widget() {
+        require_once MYEW_PLUGIN_PATH . '/widgets/team-carousel.php';
     }
 
     /**

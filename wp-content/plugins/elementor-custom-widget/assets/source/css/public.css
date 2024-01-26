@@ -1,0 +1,54 @@
+.lists-our-team{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    max-height: 100%;
+}
+
+.item img{
+    width: 100%;
+}
+
+.item p{
+    text-align: center;
+}
+
+.owl-prev {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    margin-left: -20px;
+    display: block !important;
+    border:0px solid black;
+
+}
+
+.owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    right: -25px;
+    display: block !important;
+    border:0px solid black;
+}
+
+.owl-prev:hover,
+.owl-next:hover{
+    background-color: transparent !important;
+    color: #000 !important;
+}
+
+.owl-prev:active,
+.owl-prev:focus,
+.owl-next:active{
+    border: none !important;
+}
+
+.owl-prev span,
+.owl-next span{
+    font-size: 42px;
+}
